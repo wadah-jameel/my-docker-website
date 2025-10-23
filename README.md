@@ -247,4 +247,4 @@ docker rmi my-website
     Monitoring: Set up basic monitoring for production deployments
 
 
-#### This project gives you hands-on experience with Docker containerization, web development, and basic deployment concepts. It's an excellent foundation for learning more advanced containerization and cloud deployment techniques!
+This project gives you hands-on experience with Docker containerization, web development, and basic deployment concepts. It's an excellent foundation for learning more advanced containerization and cloud deployment techniques!
