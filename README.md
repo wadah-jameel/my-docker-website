@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-### We'll create a basic HTML website, containerize it with Docker, and make it accessible online using a cloud service or port forwarding.
+#### We'll create a basic HTML website, containerize it with Docker, and make it accessible online using a cloud service or port forwarding.
 
 ### Step 1: Create Your Basic Website
 
