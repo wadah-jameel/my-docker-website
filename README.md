@@ -39,7 +39,7 @@ my-docker-website/
 </html>
 ```
 
-Add some styling (style.css):
+#### Add some styling (style.css):
 ```bash
 body {
     font-family: Arial, sans-serif;
@@ -82,7 +82,7 @@ button:hover {
 }
 ```
 
-Add interactivity (script.js):
+#### Add interactivity (script.js):
 ```bash
 function showMessage() {
     document.getElementById('message').innerHTML = 
@@ -109,9 +109,9 @@ EXPOSE 80
 CMD ["nginx", "-g", "daemon off;"]
 ```
 
-Step 3: Build and Test Locally
+#### Step 3: Build and Test Locally
 
-Build the Docker image:
+#### Build the Docker image:
 ```bash
 # Navigate to your project directory
 cd my-docker-website
@@ -120,7 +120,7 @@ cd my-docker-website
 docker build -t my-website .
 ```
 
-Run the container locally:
+#### Run the container locally:
 ```bash
 # Run the container on port 8080
 docker run -d -p 8080:80 --name my-website-container my-website
